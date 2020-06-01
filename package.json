@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Keep notes app",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "server.js",
   "engines": {
     "node": "12.16.2"
   },
