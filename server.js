@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+require("dotenv").config();
 
 const app = express();
 const db = require("./api/models");
@@ -11,7 +12,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 db.mongoose
-    .connect(db.url, {
+    .connect(process.env.MONGODB_URI || db.url, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false
