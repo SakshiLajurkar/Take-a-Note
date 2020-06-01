@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 db.mongoose
-    .connect(process.env.MONGODB_URI || db.url, {
+    .connect(db.url, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false
