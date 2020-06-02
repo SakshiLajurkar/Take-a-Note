@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 db.mongoose
-    .connect(process.env.MONGODB_URI || db.url, {
+    .connect('mongodb+srv://sakshi:atlassak5@cluster0-iw3ro.mongodb.net/noteDB', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false
