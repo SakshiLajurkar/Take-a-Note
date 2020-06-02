@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb+srv://sakshi:atlassak5@cluster0-iw3ro.mongodb.net/noteDB'
+    url: "mongodb://localhost:27017/notesDB"
 };
