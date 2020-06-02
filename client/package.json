@@ -1,17 +1,18 @@
 {
   "name": "Google-Keep-2.0",
   "version": "1.0.0",
-  "description": "Keep notes app",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
     "axios": "^0.19.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.4.1"
+    "mongoose": "^5.9.10",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "^3.4.1",
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -21,9 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "keeper-app-part-1-starting"
   },
   "browserslist": [
     ">0.2%",
