@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import Header from "./Header";
-
+import './App.css';
 import Note from "./Note";
 import Create from "./Create";
+
 
 function App() {
   const [notes, setNotes] = useState([]);
