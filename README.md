@@ -13,6 +13,7 @@ npm i
 npm run build
 ```
 * Follow the steps below to enable the extension:
+  * Open a Google Chrome tab
   * More tools >> Extensions or navigte to `chrome://extensions/` in browser
   * Toggle the `Developer mode` switch ON in the top right corner
   * Click the `Load unpacked` button in top left corner and select the 'build' folder
