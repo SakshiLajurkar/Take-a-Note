@@ -1,6 +1,6 @@
 ## Installation and Setup
 Steps to install & run the chrome-extension code:
-* Download the code here **[here](https://github.com/SakshiLajurkar/Google-Keep-2.0/archive/chrome-extension.zip)**.
+* Download the code **[here](https://github.com/SakshiLajurkar/Google-Keep-2.0/archive/chrome-extension.zip)**.
 ```bash
 cd client
 ```
