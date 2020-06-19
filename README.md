@@ -1,4 +1,4 @@
-<h1 align="center"><img src="icon.png" width="25px">Take a Note</h1>
+<h1 align="center"><img src="icon.png" width="25px"> Take a Note</h1>
 <h4 align="center">A minimalistic notes app created using MERN stack</h4>
 <p align="center">
 <a href = "#about">About</a>  •
@@ -76,9 +76,9 @@ url: mongodb+srv://username:password@cluster0-yo0nm.mongodb.net/NoteDB
 
 ## Deployment
 The app is made deployment-ready for Heroku by adding some specific elements.
-* Database connected to MongoDB-Atlas cluster
-* Create`Procfile` to declare process types
-* Built static assets for the client site by adding 'heroku-postbuild' to scripts in `package.json`
+* Database connected to MongoDB-Atlas cluster.
+* Create`Procfile` to declare process types.
+* Built static assets for the client site by adding 'heroku-postbuild' to scripts in `package.json`.
 
 ```bash
   "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install -prefix client && npm run build -prefix client"
@@ -94,7 +94,7 @@ The app is made deployment-ready for Heroku by adding some specific elements.
 
 ## License
 
-The MIT Licence ([MIT](https://github.com/SakshiLajurkar))
+The MIT Licence ([MIT](https://github.com/SakshiLajurkar/Take-a-Note/blob/master/LICENSE))
 
 Copyright (c) 2020 Sakshi Lajurkar
 
