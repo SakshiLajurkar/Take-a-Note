@@ -1,10 +1,11 @@
 import React from "react";
-import HighlightIcon from '@material-ui/icons/Highlight';
+
+import ScatterPlotIcon from '@material-ui/icons/ScatterPlot';
 
 function Header() {
   return (
     <header>
-      <h1><HighlightIcon /> Google Keep 2.0</h1>
+      <h1><ScatterPlotIcon/>  Take a Note</h1>
     </header>
   );
 }

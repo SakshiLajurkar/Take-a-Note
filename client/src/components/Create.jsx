@@ -49,7 +49,7 @@ function CreateArea(props) {
           onChange={handleChange}
           onClick={handleClick}
           value={ note.content }
-          placeholder= { props.editNote.isEditing ? props.editNote.content : "Take a note..." }
+          placeholder= { props.editNote.isEditing ? props.editNote.content : "Take a Note!" }
           rows={clickedInput || props.editNote.isEditing ? 3 : 1}
         />
         <div className="submitInput">
