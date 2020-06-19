@@ -1,10 +1,10 @@
 {
   "short_name": "Notes",
-  "name": "Google Keep 2.0",
+  "name": "Take a note!",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Google Keep 2.0"
+    "default_title": "Take a note!"
   },
   "permissions": [
     "activeTab"
