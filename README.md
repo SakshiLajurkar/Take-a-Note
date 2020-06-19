@@ -1,4 +1,4 @@
-<h1 align="center"><img src="icon.png" width="20px"> Take a Note</h1>
+<h1 align="center"><img src="icon.png" width="25px">Take a Note</h1>
 <h4 align="center">A minimalistic notes app created using MERN stack</h4>
 <p align="center">
 <a href = "#about">About</a>  •
